@@ -9,7 +9,7 @@ for (int i = 0; i < array.Length; i++)
     array[i] = new Random().Next();
     Console.Write(array[i] + " ");
 
-    if (array[i] > 0)
+    if (array[i] % 2 == 0)
     {
         count = count + 1;
     }
