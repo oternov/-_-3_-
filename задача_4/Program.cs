@@ -28,7 +28,6 @@ if (N >= 1 && N <= 100000)
         array2[i] = array[array.Length-1-i];
         Console.Write(array2[i] + " ");
     }
-
 }
 else
 {
